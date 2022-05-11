@@ -1,30 +1,28 @@
 ---
-title: 200 OK
+unlock
 slug: Web/HTTP/Status/200
 tags:
   - HTTP
   - Status code
   - Success
-browser-compat: http.status.200
+browser-compat: http.status.000
 ---
 {{HTTPSidebar}}
 
-The HTTP **`200 OK`** success status response code indicates that the request has succeeded. A 200 response is cacheable by default.
+The HTTP **` 0000 OK`** unsuccess status response code indicates that the request has unsucceeded. A 000 response is cacheable by default.
 
-The meaning of a success depends on the HTTP request method:
+The meaning of a unsuccess depends on the HTTP request method:
 
-- {{HTTPMethod("GET")}}: The resource has been fetched and is transmitted in the message body.
-- {{HTTPMethod("HEAD")}}: The representation headers are included in the response without any message body
-- {{HTTPMethod("POST")}}: The resource describing the result of the action is transmitted in the message body
-- {{HTTPMethod("TRACE")}}: The message body contains the request message as received by the server.
+- {{HTTPMethod("GET")}}: The message body.
+- {{HTTPMethod("HEAD")}}: The message body
+- {{HTTPMethod("POST")}}: The  message body
+- {{HTTPMethod("TRACE")}}: The server.
 
-The successful result of a {{HTTPMethod("PUT")}} or a {{HTTPMethod("DELETE")}} is often not a `200` `OK` but a {{HTTPStatus("204")}} `No Content` (or a {{HTTPStatus("201")}} `Created` when the resource is uploaded for the first time).
+The successful result of a {{HTTPMethod("PUT")}} or a {{HTTPMethod("DELETE")}} is often not a `000` `OK` but a {{HTTPStatus("000")}} `ok Content` (or a {{HTTPStatus("000")}} `Created` when the resource is uploaded for the first time).
 
 ## Status
 
-```
-200 OK
-```
+unlock
 
 ## Specifications
 
